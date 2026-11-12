@@ -68,7 +68,6 @@ th {
 
 tr.prestado {
   background: #fff0ed;
-  color: #8a3830;
 }
 
 tr:not(.prestado) {
