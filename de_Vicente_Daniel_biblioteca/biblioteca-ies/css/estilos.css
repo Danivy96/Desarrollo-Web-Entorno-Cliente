@@ -1,0 +1,80 @@
+/* Estilos mínimos de partida. Puedes ampliarlos (requisito R8). */
+body {
+  font-family: system-ui, sans-serif;
+  color: #222;
+  background: #e7e2e2;
+}
+
+header {
+  background: #582f2f;
+  color: #fff;
+  padding: 1rem 1rem;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+section {
+  background: #fff;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  margin-top: 0;
+  color: #582f2f;
+}
+
+.resumen-grid {
+  display: block;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.8rem;
+}
+
+.resumen-grid p {
+  padding: 0.75rem;
+  background: #f5eded;
+  color: #582f2f;
+}
+
+.resumen-grid span {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  font-size: 14px;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 14px;
+}
+
+th,
+td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #ece5e5;
+}
+
+th {
+  background: #582f2f;
+  color: #fff;
+}
+
+tr.prestado {
+  background: #fff0ed;
+  color: #8a3830;
+}
+
+tr:not(.prestado) {
+  background: #f7fcf7;
+}
+
+marker{
+  color: #582f2f;
+}

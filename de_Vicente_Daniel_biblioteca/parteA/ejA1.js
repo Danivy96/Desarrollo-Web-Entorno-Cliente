@@ -1,0 +1,15 @@
+console.log(typeof ("5" + 3));
+console.log(typeof ("5" * 3));
+console.log(typeof ("5" - "2"));
+console.log(typeof Number(""));
+console.log(typeof Number("12px"));
+console.log(typeof parseInt("12px"));
+console.log(typeof parseFloat("3.75€"));
+console.log(typeof ("10" == 10));
+console.log(typeof ("10" === 10));
+console.log(typeof (null + 1));
+console.log(typeof (undefined + 1));
+console.log(typeof typeof NaN);
+console.log(typeof Boolean("0"));
+console.log(typeof (0 || "valor por defecto"));
+console.log(typeof (0 ?? "valor por defecto"));
